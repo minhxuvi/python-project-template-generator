@@ -38,6 +38,7 @@ function generate-project {
 
     cd "$THIS_DIR/sample"
     cd $(ls)
+    cp -r ../../.vscode .
     git init
     git add --all
     git branch -M main
