@@ -1,4 +1,4 @@
-# Python Cookiecutter Project Template Generator
+# Python Project Template Generator
 
 ## Overview
 

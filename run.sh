@@ -179,6 +179,9 @@ EOF
         --config-file $CONFIG_FILE_PATH
     rm $CONFIG_FILE_PATH
 
+    # copy .vscode folder to the generated folder
+    cp -r .vscode "$OUTDIR/$REPO_NAME/"
+
     # stage the generated files on a new feature branch
     mv "$REPO_NAME/.git" "$OUTDIR/$REPO_NAME/"
     cd "$OUTDIR/$REPO_NAME"

@@ -39,5 +39,7 @@
         "nickmillerdev.pytest-fixtures",
         // Compare folders
         "moshfeu.compare-folders",
+        // Makefile
+        "ms-vscode.makefile-tools",
     ]
 }
